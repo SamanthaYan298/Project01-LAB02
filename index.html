@@ -1,0 +1,254 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Metrolics</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="HTML Structure">
+
+  <meta property="og:title" content="Metrolics Template">
+  <meta property="og:type" content="HTML">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+
+  <style>
+  .page-layout {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: space-around;  
+  }
+
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    word-spacing: 50px;
+    margin: 20px;
+    outline: 5px solid rgb(224, 224, 224);
+  }  
+
+  .company-logo {
+    padding-right: 200px;
+  }
+
+  .images {
+    height: 500px;
+    width: auto;
+    background-color: rgb(230, 230, 230);
+  }
+
+  .display-content {
+    margin: 70px;
+    outline: 5px solid rgb(224, 224, 224);
+  }
+
+  .main-contents {
+    margin: 0 250px;
+  }
+
+  .flex-row,.flex-row-02,.flex-row-04 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+    margin: 40px;
+    outline: 5px solid rgb(224, 224, 224);
+  }
+
+  .section,.section-04 {
+    margin: 40px;
+  }
+
+  .flex-row-03,.flex-row-05 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+    margin: 40px;
+    outline: 5px solid rgb(224, 224, 224);
+  }
+
+  .project {
+    padding: 50px 100px;
+  }
+
+  .dropdown-menu {
+    padding: 0 100px;
+    margin: 0 100px;
+  }
+
+  .tab {
+    height: 200px;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+
+  .tab button {
+    float: left;
+    border: none;
+    outline: 2px;
+    padding: 15px;
+    transition: 0.3s;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .page-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    margin: 0 250px;
+    background-color: black;
+    color:white;
+    padding-bottom: 100px;
+  }
+
+  .footer-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  </style>
+</head>
+
+<body>
+  <div class="page-layout">
+    <header class="nav-section">
+      <nav class="nav-bar">
+        <img src="URL" alt="logo" class="company-logo">
+        <h4 class="nav-contents">Home Pages Blog Portfolio Home</h4>
+      </nav>
+    </header><!-- end of page__header -->
+
+    <img src="URL" alt="images" class="images">
+    <div class="main-contents">
+      <h1 class="display-content">Contents</h1>
+
+      <div class="section">
+        <h3 class="content">Heading Areas</h3>
+        <h4 class="sub-header">Subheading<h4>
+          <div class="flex-row">
+            <div class="s-col">
+              <img src="URL" alt="images" class="icon">
+              <h6 class="s-heading">Heading</h6>
+              <p class="paragraph">Paragraph</p>
+            </div>
+            <div class="s-col">
+              <img src="URL" alt="images" class="icon">
+              <h6 class="s-heading">Heading</h6>
+              <p class="paragraph">Paragraph</p>
+            </div>
+            <div class="s-col">
+              <img src="URL" alt="images" class="icon">
+              <h6 class="s-heading">Heading</h6>
+              <p class="paragraph">Paragraph</p>
+            </div>
+            <div class="s-col">
+              <img src="URL" alt="images" class="icon">
+              <h6 class="s-heading">Heading</h6>
+              <p class="paragrap">Paragraph</p>
+            </div>
+          </div>
+      </div><!-- end of section 1 -->
+
+      <div class="section-02">
+        <h3 class="content">Heading Areas</h3>
+        <h4 class="sub-header">Subheading<h4>
+          <div class="flex-row-02">
+            <img src="URL" alt="images" class="sample">
+            <img src="URL" alt="images" class="sample">
+            <img src="URL" alt="images" class="sample">
+          </div>
+      </div><!-- end of section 2 -->
+
+      <div class="section-03">
+        <h3 class="content">Heading Areas</h3>
+        <h4 class="sub-header">Subheading<h4>
+          <div class="flex-row-03">
+            <img src="URL" alt="images" class="project">  <!--subclass name: class="project project--pinned"-->
+            <img src="URL" alt="images" class="project">
+            <img src="URL" alt="images" class="project">
+            <img src="URL" alt="images" class="project">
+            <img src="URL" alt="images" class="project">
+            <img src="URL" alt="images" class="project">
+          </div>
+      </div><!-- end of section 3 -->
+
+      <div class="section-04">
+        <h3 class="content">Heading Areas</h3>
+        <h4 class="sub-header">Subheading<h4>
+          <div class="flex-row-04">
+            <div>
+              <div class="dropdown-menu"> Drop down menu areas</div>
+            </div>
+
+          <div class="tab">
+            <button class="tab-links">Tab 1</button>
+            <button class="tab-links">Tab 2</button>
+            <button class="tab-links">Tab 3</button>
+            <p class="tab-content">Paragraph</p>
+          </div>
+          </div>
+      </div><!-- end of section 4 -->
+
+      <div class="section-05">
+        <div class="flex-row-05">
+          <img src="URL" alt="images" class="company">
+          <img src="URL" alt="images" class="company">
+          <img src="URL" alt="images" class="company">
+          <img src="URL" alt="images" class="company">
+          <img src="URL" alt="images" class="company">
+        </div>
+      </div><!-- end of section 5 -->
+    </div><!-- end of main contents -->
+  </div><!-- end of page_layout -->
+
+  <footer class="page-footer"> <!--"page-footer"-->
+    <div class="info">
+      <img src="URL" alt="profile" class="profile">
+      <p class="infoContent">Paragraph</p>
+    </div>
+
+    <div class="footer-item">
+      <div class="item"> <!-- simpify "footer-col"-->
+        <h5 class="footer-heading">Heading</h5>
+        <p class="footer-content">Paragraph</p>
+      </div>
+      <div class="item">
+        <h5 class="footer-heading">Heading</h5>
+        <p class="footer-content">Paragraph</p>
+      </div>
+      <div class="item">
+        <h5 class="footer-heading">Heading</h5>
+        <p class="footer-content">Paragraph</p>
+      </div>
+      <div class="item">
+        <h5 class="footer-heading">Heading</h5>
+        <p class="footer-content">Paragraph</p>
+      </div>
+    </div>
+  </footer><!-- end of page_footer -->
+
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
